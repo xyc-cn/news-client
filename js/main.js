@@ -1,3 +1,4 @@
+var myhistory = [];
 require.config({
     paths: {
         jquery: 'jquery-1.8.2.min',
