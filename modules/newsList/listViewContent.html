@@ -1,0 +1,8 @@
+<ul data-role="listview"  class="ui-listview-outer" data-inset="true" id="newslist">
+    <% for (var i = 0; i < data.length; i++) { %>
+    <% var item = data[i]; %>
+    <li><a alt="<%= item.id%>" >
+        <%= item.title %></a> </li>
+    <% } %>
+</ul>
+

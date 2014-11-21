@@ -8,6 +8,7 @@ require.config({
         text: 'plugin/text',
         plugin: 'plugin',
         templates: '../templates',
+        model:"../model",
         modules: '../modules',
         router:'router'
     }
